@@ -1,0 +1,60 @@
+{
+  "/A":{"handleontap":
+  {
+    "type": "Column",
+    "children": [
+      {
+        "type": "Row",
+        "alignment": "start",
+        "children": [
+          {
+            "type": "textbutton",
+            "label": "/Final_View",
+            "color":"indigo1",
+            "ontap":"finalView.json"
+          },
+          {
+            "type": "textbutton",
+            "label": "/A",
+            "color":"grey",
+            "ontap":"CaptialAccountView.json"
+          }
+        ]
+      },
+      {
+        "type": "datatable",
+        "datawidth":0.382,
+        "columnSpacing":0.650,
+        "columnwidth":0.995,
+        "displayColumns": [{"name":"Party Name"},{"name":"Opening Balance"},{"name":"Debit"},{"name":"Credit"}],
+        "totalcolumn": [{"name":"Opening Balance"},{"name":"Credit"},{"name":"Debit"}],
+        "items":
+        [
+          {"Party Name": "XYZ CAPITALA/C.", "Address": "SURAT", "Opening Balance": "672431.35 DR",
+            "Credit": "0.00","Debit": "0.00","ontap": "handleontapA","route":"/XYZ CAPITALA/C.","jsonFile":"CompanyAccountView.json","readonly": true},
+          {"Party Name": "XYZ CAPITALA/C.", "Address": "Baroda", "Opening Balance": "50000 CR",
+            "Credit": "0.00","Debit": "0.00","ontap": "","route":"","readonly": true}
+        ],
+        "search":
+        {
+          "enabled": true,
+          "placeholder": "Search...",
+          "hintText": "Type to search"
+        },
+        "text":{
+          "enabled": true
+        },
+        "address":{
+          "enabled": true
+        },
+        "hover": {
+          "cellHover":true,
+          "tableRowHover": false
+        },
+        "exportenable":{
+          "enabled": true
+        }
+      }
+    ]}
+  }
+}

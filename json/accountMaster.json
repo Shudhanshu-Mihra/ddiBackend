@@ -1,0 +1,1574 @@
+{
+  "/account_master": {
+    "handleSubmenu4Tap": {
+      "type": "responsiveContainer",
+      "decoration": {
+        "borderRadius": 2,
+        "boxShadow": true
+      },
+      "padding": 5,
+      "tabs": [
+        {
+          "name": "Basic Information",
+          "decoration": {
+            "color": "white",
+            "borderRadius": 5
+          },
+          "children": [
+            {
+              "type": "responsiveContainer",
+              "alignment": "start",
+              "height": 0.303,
+              "decoration": {
+                "borderRadius": 2,
+                "boxShadow": true
+              },
+              "padding": 3,
+              "children": [
+                {
+                  "type": "Row",
+                  "alignment": "spacebetween",
+                  "children": [ {
+                    "type": "text",
+                    "key": "Account Master",
+                    "value": "",
+                    "style": {
+                      "fontSize": 12.0
+                    }
+                  },
+                    {
+                      "type": "text",
+                      "key": "Entry",
+                      "value": "",
+                      "style": {
+                        "fontSize": 12.0
+                      }
+                    }
+                  ]},
+                {
+                  "type": "RowType",
+                  "alignment": "spacebetween",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "alignment": "start",
+                      "children": [
+
+                        {
+                          "type": "Rowdata",
+                          "alignment": "start",
+                          "children": [
+                            {
+                              "key": "PRT_NM",
+                              "value": "JIA NARROW FAB",
+                              "type": "textfield",
+                              "width": 465.5,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Account Name",
+                                "hintText": "Enter Account Name",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            }]}, {
+                          "type": "Rowdata",
+                          "alignment": "start",
+                          "children": [
+                            {
+                              "key": "PRT_CD",
+                              "value": "JIANAR",
+                              "type": "textfield",
+                              "width": 95,
+                              "height": 30,
+                              "focusNode": "focusNode2",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "A/c. Code",
+                                "hintText": "Enter A/c. Code",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+
+                            {
+                              "key": "GR_CD",
+                              "value": "K",
+                              "type": "textfield",
+                              "width": 71,
+                              "height": 30,
+                              "focusNode": "focusNode3",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "A/c. Group",
+                                "hintText": "Enter A/c. Group",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+
+                            {
+                              "key": "SB_GR",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 80,
+                              "height": 30,
+                              "focusNode": "focusNode4",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Sub Code",
+                                "hintText": "Enter Sub Code",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "OPBAL",
+                              "value": "1322753.00",
+                              "type": "textfield",
+                              "width": 110,
+                              "height": 30,
+                              "focusNode": "focusNode5",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Opening Bal.",
+                                "hintText": "Opening Bal.",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "-DB",
+                              "type": "dropdownserch",
+                              "width": 70.1,
+                              "height": 30,
+                              "focusNode": "focusNode6",
+                              "dropdownOptions": [
+                                "-Db",
+                                "+Cr"
+
+                              ],
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "-Db",
+                                "hintText": "",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            }
+                          ]},
+                        {
+                          "type": "Rowdata",
+                          "alignment": "start",
+                          "children": [
+
+
+                            {
+                              "key": "GSTNO",
+                              "value": "24AFQPD6924H1ZD",
+                              "type": "textfield",
+                              "width": 150,
+                              "height": 30,
+                              "focusNode": "focusNode7",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "GST Registration No.",
+                                "hintText": "Enter GST Registration No.",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "GSIN Date:",
+                              "value": "",
+                              "type": "date",
+                              "width": 120,
+                              "height": 30,
+                              "focusNode": "focusNode8",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "GSIN Date.",
+                                "hintText": "Enter GSIN Date:.",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+
+                            {
+                              "key": "BRKCD",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 68,
+                              "height": 30,
+                              "focusNode": "focusNode9",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Broker",
+                                "hintText": "Enter Broker",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "REF",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 96,
+                              "height": 30,
+                              "focusNode": "focusNode10",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Ref.By",
+                                "hintText": "Enter Ref.By",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            }
+                          ]}
+                      ]
+                    }, {
+                      "type": "Column",
+                      "alignment": "start",
+                      "children": [
+                        {
+                          "key": "IMAGEMEN",
+                          "value": "",
+                          "type": "file",
+                          "width": 50,
+                          "height": 50,
+                          "focusNode": "focusNode11",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Ref.By",
+                            "hintText": "Enter Ref.By",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        }]}]}
+              ]
+            },
+            {
+              "type": "Row",
+              "alignment": "start",
+              "decoration": {
+                "color": "white",
+                "borderRadius": 5
+              },
+              "children": [
+                {
+                  "name": "CONTACT_INFORMATION",
+                  "type": "responsiveContainer",
+                  "width": 0.46,
+                  "height": 0.443,
+                  "decoration": {
+                    "borderRadius": 2,
+                    "boxShadow": true
+                  },
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "key": "Contact Information",
+                      "value": "",
+                      "style": {
+                        "fontSize": 12.0
+                      }
+                    },
+
+                    {
+                      "type": "Row",
+                      "alignment": "start",
+                      "children": [
+
+                        {
+                          "key": "NM_PRT",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 453,
+                          "height": 30,
+                          "focusNode": "focusNode12",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Contact Person",
+                            "hintText": "Enter Contact Person",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "ADD1",
+                          "value": "",
+                          "type": "textarea",
+                          "width": 453,
+                          "height": 50,
+                          "focusNode": "focusNode13",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Address",
+                            "hintText": "Enter Address",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "ADD4",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 144,
+                          "height": 30,
+                          "focusNode": "focusNode14",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Office City",
+                            "hintText": "Enter Office City",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "PIN",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 144,
+                          "height": 30,
+                          "focusNode": "focusNode16",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Office Pincode",
+                            "hintText": "Enter Office Pincode",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "STATE",
+                          "type": "dropdownserch",
+                          "width": 144,
+                          "height": 30,
+                          "focusNode": "focusNode17",
+                          "dropdownOptions": [
+                            "Option 1",
+                            "Option 2",
+                            "Option 3"
+                          ],
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Office State",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "PH1",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 221,
+                          "height": 30,
+                          "focusNode": "focusNode18",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Phone Number 1",
+                            "hintText": "Enter Office Phone Number 1",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "AREA",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 221,
+                          "height": 30,
+                          "focusNode": "focusNode19",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Area",
+                            "hintText": "Enter Area",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "PH2",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 221,
+                          "height": 30,
+                          "focusNode": "focusNode20",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Phone Number 2",
+                            "hintText": "Enter Office Phone Number 2",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "EMAIL",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 221,
+                          "height": 30,
+                          "focusNode": "focusNode21",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Email",
+                            "hintText": "Enter Email",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "REGISTRATION",
+                  "type": "responsiveContainer",
+                  "width": 0.29,
+                  "height": 0.443,
+                  "decoration": {
+                    "borderRadius": 2,
+                    "boxShadow": true
+                  },
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "key": "REGISTRATION",
+                      "value": "",
+                      "style": {
+                        "fontSize": 12.0
+                      }
+                    },
+
+                    {
+                      "type": "Row",
+                      "children": [
+                        {
+                          "key": "PAN No.",
+                          "value": "AFQPD6924H",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode22",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "PAN No.",
+                            "hintText": "Enter PAN No.",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "Composition",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode23",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Composition",
+                            "hintText": "Enter Composition",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "STNO",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode24",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "TIN",
+                            "hintText": "Enter TIN",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "STDT",
+                          "value": "",
+                          "type": "date",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode25",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "TIN Date",
+                            "hintText": "Enter TIN Date",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "STNO1",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode26",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "CST-TIN",
+                            "hintText": "Enter CST-TIN",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "STDT1",
+                          "value": "",
+                          "type": "date",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode27",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "CST-TIN Date",
+                            "hintText": "Enter CST-TIN Date",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "TDSNO",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode28",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "TDS-NO",
+                            "hintText": "Enter TDS-NO",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "TDSPER",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode29",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "TDS PER%",
+                            "hintText": "Enter TDS PER%",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "TDSSC",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode30",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Sercharge",
+                            "hintText": "Enter Sercharge",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "CESS",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode31",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "TDS Cess",
+                            "hintText": "Enter TDS Cess",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "ECC NOs",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 125,
+                          "height": 30,
+                          "focusNode": "focusNode32",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "ECC NOs",
+                            "hintText": "Enter ECC NOs",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "OTHER_INFO",
+                  "type": "responsiveContainer",
+                  "width": 0.25,
+                  "height":0.443,
+                  "decoration": {
+                    "borderRadius": 2,
+                    "boxShadow": true
+                  },
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "key": "OTHER_INFO",
+                      "value": "",
+                      "style": {
+                        "fontSize": 12.0
+                      }
+                    },
+
+                    {
+                      "type": "Row",
+                      "children": [
+                        {
+                          "key": "RO1",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 100,
+                          "height": 30,
+                          "focusNode": "focusNode33",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Rate%",
+                            "hintText": "Enter Rate%",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "XAMT",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 100,
+                          "height": 30,
+                          "focusNode": "focusNode34",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Disc%",
+                            "hintText": "Enter Disc%",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "YAMT",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 100,
+                          "height": 30,
+                          "focusNode": "focusNode35",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Cr.Limit",
+                            "hintText": "Enter Cr.Limit",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "CRDT",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 100,
+                          "height": 30,
+                          "focusNode": "focusNode36",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Cr.Days",
+                            "hintText": "Enter Cr.Days",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "CRCD",
+                          "value": "",
+                          "type": "textfield",
+                          "width": 100,
+                          "height": 30,
+                          "focusNode": "focusNode37",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Cr-Code",
+                            "hintText": "Enter Cr-Code",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "key": "LVL",
+                          "value": "",
+                          "type": "date",
+                          "width": 100,
+                          "height": 30,
+                          "focusNode": "focusNode38",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "DBNote",
+                            "hintText": "Enter DBNote",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        }
+                      ]
+                    }
+
+                  ]
+                },
+                {
+                  "type": "Row",
+                  "alignment": "start",
+                  "children": [
+                    {
+                      "type": "button",
+                      "action": "create_company",
+                      "label": "Create Company",
+                      "backgroundColor": "indigo1",
+                      "style": {
+                        "color": "white"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "action": "update",
+                      "label": "Upadte",
+                      "backgroundColor": "indigo1",
+                      "style": {
+                        "color": "white"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "action": "ExitForm",
+                      "label": "Exit",
+                      "backgroundColor": "indigo1",
+                      "style": {
+                        "color": "white"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Extra Information",
+          "decoration": {
+            "color": "white",
+            "borderRadius": 5
+          },
+          "padding": 5,
+          "children": [
+            {
+              "type": "Row",
+              "alignment": "start",
+
+              "children": [
+                {
+                  "name": "",
+                  "type": "responsiveContainer",
+                  "width": 0.5,
+                  "height": 0.70,
+
+                  "children": [
+                    {
+                      "name": "",
+                      "type": "responsiveContainer",
+                      "width": 0.5,
+                      "height": 0.376,
+                      "decoration": {
+                        "borderRadius": 2,
+                        "boxShadow": true
+                      },
+                      "padding": 1.8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "key": "BACK INFORMATION",
+                          "value": "",
+                          "style": {
+                            "fontSize": 12.0
+                          }
+                        },
+                        {
+                          "type": "Column",
+                          "alignment": "start",
+                          "children": [
+                            {
+                              "key": "BANK",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Back Name",
+                                "hintText": "Enter Back Name",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": false
+                              }
+                            },
+                            {
+                              "key": "BRANCH",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Brach",
+                                "hintText": "Enter Brach",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "ACCOUNTNO",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Account Number",
+                                "hintText": "Enter Account Number",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "IFSCCODE",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "IFSC Code",
+                                "hintText": "Enter IFSC Code",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }, {
+                      "name": "",
+                      "type": "responsiveContainer",
+                      "width": 0.5,
+                      "height": 0.376,
+                      "decoration": {
+                        "borderRadius": 2,
+                        "boxShadow": true
+                      },
+                      "padding": 1.8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "key": "PERSONAL INFORMATION",
+                          "value": "",
+                          "style": {
+                            "fontSize": 12.0
+                          }
+                        },
+                        {
+
+                          "type": "Column",
+                          "children": [
+                            {
+                              "key": "AADHAR",
+                              "value": "",
+                              "type": "textfield",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Aadthar Card",
+                                "hintText": "Enter Aadthar Card",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "BIRTHDATE",
+                              "value": "",
+                              "type": "date",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Birth Date",
+                                "hintText": "Enter Birth Date",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            },
+                            {
+                              "key": "ANNIVDATE",
+                              "value": "",
+                              "type": "date",
+                              "width": 250,
+                              "height": 30,
+                              "focusNode": "focusNode1",
+                              "fontSize": 12,
+                              "decoration": {
+                                "labelText": "Anniversary",
+                                "hintText": "Enter Anniversary",
+                                "border": true,
+                                "enabledborder": true,
+                                "focusedborder": true,
+                                "contentPadding": 1,
+                                "fontSize": 12,
+                                "hintTextStyle": {
+                                  "fontSize": 12,
+                                  "color": "grey"
+                                },
+                                "labelTextStyle": {
+                                  "color": "indigo1",
+                                  "fontSize": 14
+                                },
+                                "enabled": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]},
+                {
+                  "name": "",
+                  "type": "responsiveContainer",
+                  "width": 0.5,
+                  "height": 0.756,
+                  "decoration": {
+                    "borderRadius": 2,
+                    "boxShadow": true
+                  },
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "key": "NOTES",
+                      "value": "",
+                      "style": {
+                        "fontSize": 12.0
+                      }
+                    },
+                    {
+                      "type": "Row",
+                      "alignment": "start",
+                      "children": [
+                        {
+                          "key": "NOTES",
+                          "value": "",
+                          "type": "textarea",
+                          "width": 600,
+                          "height": 200,
+                          "focusNode": "focusNode1",
+                          "fontSize": 12,
+                          "decoration": {
+                            "labelText": "Notes",
+                            "hintText": "Enter Notes",
+                            "border": true,
+                            "enabledborder": true,
+                            "focusedborder": true,
+                            "contentPadding": 1,
+                            "fontSize": 12,
+                            "hintTextStyle": {
+                              "fontSize": 12,
+                              "color": "grey"
+                            },
+                            "labelTextStyle": {
+                              "color": "indigo1",
+                              "fontSize": 14
+                            },
+                            "enabled": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "button",
+                      "action": "create_company",
+                      "label": "Create Company",
+                      "backgroundColor": "indigo1",
+                      "style": {
+                        "color": "white"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "action": "update",
+                      "label": "Upadte",
+                      "backgroundColor": "indigo1",
+                      "style": {
+                        "color": "white"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "action": "ExitForm",
+                      "label": "Exit",
+                      "backgroundColor": "indigo1",
+                      "style": {
+                        "color": "white"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

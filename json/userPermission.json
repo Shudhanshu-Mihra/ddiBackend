@@ -1,0 +1,31 @@
+
+{
+  "/userPermission": {
+    "handleSubmenu2Tap": {
+      "type": "responsiveContainer",
+      "title": "Sales",
+      "alignment": "start",
+      "decoration": {
+        "borderRadius": 2,
+        "boxShadow": true
+      },
+      "padding": 5,
+      "children": [
+        {
+          "type": "Row",
+          "alignment": "spaceBetween",
+          "children": [
+            {
+              "type": "text",
+              "key": "User Permission",
+              "value": "",
+              "style": {
+                "fontSize": 15
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

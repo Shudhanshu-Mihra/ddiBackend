@@ -1,0 +1,807 @@
+
+{
+  "/sales": {
+    "handleSubmenu2Tap": {
+      "type": "responsiveContainer",
+      "title": "Sales",
+      "alignment": "start",
+      "decoration": {
+        "borderRadius": 2,
+        "boxShadow": true
+      },
+      "padding": 5,
+      "children": [
+        {
+          "type": "Row",
+          "alignment": "spaceBetween",
+          "children": [
+            {
+              "type": "text",
+              "key": "Sales JobWork",
+              "value": "",
+              "style": {
+                "fontSize": 15
+              }
+            },
+            {
+              "key": "Closing Balance",
+              "value": "1234567",
+              "type": "textfield",
+              "width": 150,
+              "height": 30,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Closing Balance",
+                "hintText": "",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "hintTextStyle": {
+                  "color": "grey",
+                  "fontSize": 12
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                }
+              },
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "type": "Row",
+          "alignment": "spacebetween",
+          "children": [
+            {
+              "type": "Column",
+              "alignment": "spaceBetween",
+              "children": [
+                {
+                  "key": "A/c.Name",
+                  "value": "",
+                  "type": "textfieldWithDropdown",
+                  "width": 300,
+                  "height": 40,
+                  "focusNode": "focusNode1",
+                  "fontSize": 14,
+                  "decoration": {
+                    "labelText": "A/c.Name",
+                    "hintText": "Enter A/c.Name",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "popupOptions": [
+                      {
+                        "Account_name": "shree ganeshay namsha private. limited shree ganeshay namsha private. limited",
+                        "Group": "X",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nanpura Main road, surat",
+                        "Pancard_Number": "1000000"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Vesu, main road",
+                        "Pancard_Number": "1000000"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      }
+                    ],
+                    "onTap": true,
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "Address",
+                  "value": "",
+                  "type": "textarea",
+                  "width": 300,
+                  "height": 40,
+                  "focusNode": "focusNode15",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Address",
+                    "hintText": "ADD Address",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "hintTextStyle": {
+                      "color": "grey",
+                      "fontSize": 12
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    }
+                  },
+                  "enabled": true
+                },
+                {
+                  "key": "Dly. Code",
+                  "value": "1234567",
+                  "type": "textfield",
+                  "width": 300,
+                  "height": 30,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Dly. Code",
+                    "hintText": "Dly. Code",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "hintTextStyle": {
+                      "color": "grey",
+                      "fontSize": 12
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    }
+                  },
+                  "enabled": true
+                },
+                {
+                  "key": "Posting",
+                  "value": "",
+                  "type": "textfield",
+                  "width": 300,
+                  "height": 30,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Posting",
+                    "hintText": "Enter Posting",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "alignment": "spacebetween",
+              "children": [
+                {
+                  "key": "Closing Bal",
+                  "value": "0.0",
+                  "type": "textfield",
+                  "width": 300,
+                  "height": 30,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Closing Bal",
+                    "hintText": "",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": false
+                  }
+                },
+                {
+                  "key": "Type",
+                  "type": "dropdownserch",
+                  "width": 300,
+                  "height": 30,
+                  "focusNode": "focusNode6",
+                  "dropdownOptions": [
+                    "Option 1",
+                    "Option 2",
+                    "Option 3"
+                  ],
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Type",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "GST No.",
+                  "value": "",
+                  "type": "textfield",
+                  "width": 300,
+                  "height": 30,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "GST No.",
+                    "hintText": "Enter GST No.",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "State",
+                  "type": "dropdownserch",
+                  "width": 300,
+                  "height": 30,
+                  "focusNode": "focusNode6",
+                  "dropdownOptions": [
+                    "Option 1",
+                    "Option 2",
+                    "Option 3"
+                  ],
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "State",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "responsiveContainer",
+              "alignment": "start",
+              "width": 0.4,
+              "height": 0.3,
+              "decoration": {
+                "boxShadow": false
+              },
+              "children": [ {
+                "type": "Row",
+                "alignment": "start",
+                "children": [
+                  {
+                    "type": "Column",
+                    "alignment": "start",
+                    "children": [
+                      {
+                        "key": "Invoice Date",
+                        "value": "",
+                        "type": "date",
+                        "width": 200,
+                        "height": 30,
+                        "focusNode": "focusNode1",
+                        "fontSize": 12,
+                        "decoration": {
+                          "labelText": "Invoice Date",
+                          "hintText": "Enter Invoice Date",
+                          "border": true,
+                          "enabledborder": true,
+                          "focusedborder": true,
+                          "contentPadding": 1,
+                          "fontSize": 12,
+                          "hintTextStyle": {
+                            "fontSize": 12,
+                            "color": "grey"
+                          },
+                          "labelTextStyle": {
+                            "color": "indigo1",
+                            "fontSize": 14
+                          },
+                          "enabled": true
+                        }
+                      },
+                      {
+                        "key": "Invoice No.",
+                        "value": "",
+                        "type": "textfield",
+                        "width": 200,
+                        "height": 30,
+                        "focusNode": "focusNode1",
+                        "fontSize": 12,
+                        "decoration": {
+                          "labelText": "Invoice No.",
+                          "hintText": "Enter Invoice No.",
+                          "border": true,
+                          "enabledborder": true,
+                          "focusedborder": true,
+                          "contentPadding": 1,
+                          "fontSize": 12,
+                          "hintTextStyle": {
+                            "fontSize": 12,
+                            "color": "grey"
+                          },
+                          "labelTextStyle": {
+                            "color": "indigo1",
+                            "fontSize": 14
+                          },
+                          "enabled": true
+                        }
+                      },
+                      {
+                        "key": "Challan Date.",
+                        "value": "",
+                        "type": "date",
+                        "width": 200,
+                        "height": 30,
+                        "focusNode": "focusNode1",
+                        "fontSize": 12,
+                        "decoration": {
+                          "labelText": "Challan Date.",
+                          "hintText": "Enter Challan Date.",
+                          "border": true,
+                          "enabledborder": true,
+                          "focusedborder": true,
+                          "contentPadding": 1,
+                          "fontSize": 12,
+                          "hintTextStyle": {
+                            "fontSize": 12,
+                            "color": "grey"
+                          },
+                          "labelTextStyle": {
+                            "color": "indigo1",
+                            "fontSize": 14
+                          },
+                          "enabled": true
+                        }
+                      },
+                      {
+                        "key": "Challan No.",
+                        "value": "",
+                        "type": "textfield",
+                        "width": 200,
+                        "height": 30,
+                        "focusNode": "focusNode1",
+                        "fontSize": 12,
+                        "decoration": {
+                          "labelText": "Challan No.",
+                          "hintText": "Enter Challan No.",
+                          "border": true,
+                          "enabledborder": true,
+                          "focusedborder": true,
+                          "contentPadding": 1,
+                          "fontSize": 12,
+                          "hintTextStyle": {
+                            "fontSize": 12,
+                            "color": "grey"
+                          },
+                          "labelTextStyle": {
+                            "color": "indigo1",
+                            "fontSize": 14
+                          },
+                          "enabled": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Column",
+                    "alignment": "start",
+                    "children": [
+                      {
+                        "type": "text",
+                        "key": "Week",
+                        "value": "",
+                        "style": {
+                          "fontSize": 16
+                        }
+                      },
+                      {
+                        "key": "InvoiceDateNo",
+                        "value": "",
+                        "type": "textfield",
+                        "width": 150,
+                        "height": 30,
+                        "focusNode": "focusNode1",
+                        "fontSize": 12,
+                        "decoration": {
+                          "labelText": "InvoiceDateNo",
+                          "hintText": "Enter InvoiceDateNo",
+                          "border": true,
+                          "enabledborder": true,
+                          "focusedborder": true,
+                          "contentPadding": 1,
+                          "fontSize": 12,
+                          "hintTextStyle": {
+                            "fontSize": 12,
+                            "color": "grey"
+                          },
+                          "labelTextStyle": {
+                            "color": "indigo1",
+                            "fontSize": 14
+                          },
+                          "enabled": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "key": "Week",
+                        "value": "",
+                        "style": {
+                          "fontSize": 16
+                        }
+                      },
+                      {
+                        "key": "ChallanDateNo.",
+                        "value": "",
+                        "type": "textfield",
+                        "width": 150,
+                        "height": 30,
+                        "focusNode": "focusNode1",
+                        "fontSize": 12,
+                        "decoration": {
+                          "labelText": "ChallanDate No.",
+                          "hintText": "Enter ChallanDate No.",
+                          "border": true,
+                          "enabledborder": true,
+                          "focusedborder": true,
+                          "contentPadding": 1,
+                          "fontSize": 12,
+                          "hintTextStyle": {
+                            "fontSize": 12,
+                            "color": "grey"
+                          },
+                          "labelTextStyle": {
+                            "color": "indigo1",
+                            "fontSize": 14
+                          },
+                          "enabled": true
+                        }
+                      }
+                    ]
+                  }]}]},
+            {
+              "type": "table",
+              "items": [
+                {
+                  "ItemCode": "",
+                  "ItemName": "",
+                  "Quantity": "",
+                  "Unit": "",
+                  "Rate": {
+                    "value": "",
+                    "onTap": true
+                  },
+                  "AmountRs": ""
+                },
+                {
+                  "ItemCode": "",
+                  "ItemName": "",
+                  "Quantity": "",
+                  "Unit": "",
+                  "Rate": {
+                    "value": "",
+                    "onTap": true
+                  },
+                  "AmountRs": ""
+                },
+                {
+                  "ItemCode": "",
+                  "ItemName": "",
+                  "Quantity": "",
+                  "Unit": "",
+                  "Rate": {
+                    "value": "",
+                    "onTap": true
+                  },
+                  "AmountRs": ""
+                },
+                {
+                  "ItemCode": "",
+                  "ItemName": "",
+                  "Quantity": "",
+                  "Unit": "",
+                  "Rate": {
+                    "value": "",
+                    "onTap": true
+                  },
+                  "AmountRs": ""
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "type": "Row",
+          "alignment": "spacebetween",
+          "children": [
+            {
+              "key": "Remark",
+              "value": "",
+              "type": "textarea",
+              "width": 550,
+              "height": 50,
+              "focusNode": "focusNode15",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Remark",
+                "hintText": "ADD Remark",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "hintTextStyle": {
+                  "color": "grey",
+                  "fontSize": 12
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                }
+              },
+              "enabled": true
+            },
+
+            {
+              "type": "responsiveContainer",
+              "title": "Sales GST",
+              "alignment": "start",
+              "width":0.2,
+              "height": 0.05,
+              "decoration": {
+                "boxShadow": false
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "alignment": "start",
+                  "children": [
+                    {
+                      "key": "Due Date",
+                      "value": "",
+                      "type": "date",
+                      "width": 100,
+                      "height": 30,
+                      "focusNode": "focusNode1",
+                      "fontSize": 12,
+                      "decoration": {
+                        "labelText": "Due Date",
+                        "hintText": "Enter Due Date",
+                        "border": true,
+                        "enabledborder": true,
+                        "focusedborder": true,
+                        "contentPadding": 1,
+                        "fontSize": 12,
+                        "hintTextStyle": {
+                          "fontSize": 12,
+                          "color": "grey"
+                        },
+                        "labelTextStyle": {
+                          "color": "indigo1",
+                          "fontSize": 14
+                        },
+                        "enabled": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "key": "date",
+                      "value": "",
+                      "style": {
+                        "fontSize": 15
+                      }
+                    }]}]},
+            {
+              "key": "Broker",
+              "value": "",
+              "type": "textfield",
+              "width": 200,
+              "height": 30,
+              "focusNode": "focusNode1",
+              "fontSize": 14,
+              "decoration": {
+                "labelText": "Broker",
+                "hintText": "Enter Broker",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "fontSize": 12,
+                "hintTextStyle": {
+                  "fontSize": 12,
+                  "color": "grey"
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                },
+                "enabled": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "height": 0.07,
+          "alignment": "end",
+          "children": [
+            {
+              "type": "Row",
+              "alignment": "start",
+              "children": [
+                {
+                  "type": "button",
+                  "action": "SaveForm",
+                  "label": "Save",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": "CancelForm",
+                  "label": "Cancel",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": "ExitForm",
+                  "label": "Exit",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                }
+              ]
+            }]}
+      ]
+    }
+  }
+}

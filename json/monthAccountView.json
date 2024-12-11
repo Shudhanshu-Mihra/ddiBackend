@@ -1,0 +1,136 @@
+{
+  "/April": {
+    "handleontapmonth": {
+      "type": "Column",
+      "children": [
+        {
+          "type": "Row",
+          "alignment": "start",
+          "children": [
+            {
+              "type": "textbutton",
+              "label": "/Final_View",
+              "color": "indigo1",
+              "ontap": "finalView.json"
+            },
+            {
+              "type": "textbutton",
+              "label": "/A",
+              "color": "indigo1",
+              "ontap": "CaptialAccountView.json",
+              "cellvalue": "Capital"
+            },
+            {
+              "type": "textbutton",
+              "label": "/XYZ CAPITALA/C.",
+              "color": "indigo1",
+              "ontap": "CompanyAccountView.json"
+            },
+            {
+              "type": "textbutton",
+              "label": "/April",
+              "color": "grey",
+              "ontap": "monthAccountView.json"
+            }
+          ]
+        },
+        {
+          "type": "datatable",
+          "datawidth":0.382,
+          "columnSpacing":0.650,
+          "columnwidth": 0.995,
+          "displayColumns": [
+            {
+              "name": "Date",
+              "readonly": false
+            },
+            {
+              "name": "Invoice",
+              "readonly": false
+            },
+            {
+              "name": "Party/Book",
+              "readonly": false
+            },
+            {
+              "name": "Debit",
+              "readonly": false
+            },
+            {
+              "name": "Credit",
+              "readonly": false
+            },
+            {
+              "name": "Balance Rs.",
+              "readonly": true
+            }
+          ],
+          "totalcolumn": [
+            {
+              "name": "Debit"
+            },
+            {
+              "name": "Credit"
+            }
+          ],
+          "items": [
+            {
+              "Date": "Opening Balance",
+              "Invoice": "",
+              "Party/Book": "",
+              "Debit": "100",
+              "Credit": "0.0",
+              "Balance Rs.": "672431.35 CR",
+              "fontWeight": "bold"
+            },
+            {
+              "Date": "19-05-2017",
+              "Invoice": "710",
+              "Party/Book": "PURCHASES",
+              "Debit": "0.0",
+              "Credit": "1200",
+              "Balance Rs.": "672431.35 CR"
+            },
+            {
+              "Date": "20-05-2017",
+              "Invoice": "800",
+              "Party/Book": "PURCHASES",
+              "Debit": "0.0",
+              "Credit": "0.0",
+              "Balance Rs.": "672431.35 CR"
+            },
+            {
+              "Date": "27-05-2017",
+              "Invoice": "0",
+              "Party/Book": "CASH",
+              "Debit": "0.0",
+              "Credit": "0.0",
+              "Balance Rs.": "672431.35 CR"
+            },
+            {
+              "Date": "31-05-2017",
+              "Invoice": "1000",
+              "Party/Book": "PURCHASES",
+              "Debit": "1200",
+              "Credit": "0.0",
+              "Balance Rs.": "672431.35 CR"
+            }
+          ],
+          "text": {
+            "enabled": true
+          },
+          "address": {
+            "enabled": false
+          },
+          "hover": {
+            "cellHover": true,
+            "tableRowHover": false
+          },
+          "exportenable": {
+            "enabled": true
+          }
+        }
+      ]
+    }
+  }
+}

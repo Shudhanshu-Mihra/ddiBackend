@@ -1,0 +1,810 @@
+{
+  "/dashboard": {
+    "handleSubmenu6Tap": {
+      "type": "responsiveContainer",
+      "decoration": {
+        "borderRadius": 2,
+        "boxShadow": true
+      },
+      "padding": 5,
+      "children": [
+        {
+          "id": "SAMPLE ACCOUNTS 1",
+          "type": "Column",
+          "children": [
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "card",
+                  "title": "Total Sales Rs.",
+                  "color": "cyan",
+                  "value": 12345.67,
+                  "value1": 392384.03,
+                  "icon": "Icons.loyalty",
+                  "link": "/parties/k",
+                  "linkText": "Outstanding"
+                },
+                {
+                  "type": "card",
+                  "color": "grey",
+                  "title": "Total Purchase Rs.",
+                  "value": 89012.34,
+                  "value1": 158702,
+                  "icon": "Icons.shopping_basket",
+                  "link": "/parties/e",
+                  "linkText": "Payable"
+                },
+                {
+                  "type": "card",
+                  "color": "lightgreen",
+                  "title": "Bank Balance Rs.",
+                  "value": 56789,
+                  "icon": "Icons.account_balance",
+                  "link": "/bank",
+                  "linkText": "View Bank Book"
+                },
+                {
+                  "type": "card",
+                  "color": "bluegrey",
+                  "title": "Cash In Hand Rs.",
+                  "value": 2345.67,
+                  "icon": "Icons.account_balance_wallet",
+                  "link": "/cash",
+                  "linkText": "View Cash Book"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "children": [
+                {
+                  "type": "RowType",
+                  "children": [
+                    {
+                      "type": "chart",
+                      "chartType": "piechart",
+                      "data": [
+                        {
+                          "title": "Income"
+                        },
+                        {
+                          "category": "Sales-Retail Invoice",
+                          "value": 8000,
+                          "color": "cyan"
+                        },
+                        {
+                          "category": "Sales GST",
+                          "value": 10000,
+                          "color": "grey"
+                        },
+                        {
+                          "category": "Commision Income",
+                          "value": 120000,
+                          "color": "bluegrey"
+                        },
+                        {
+                          "category": "Service Income",
+                          "value": 99000,
+                          "color": "lightgreen"
+                        },
+                        {
+                          "category": "Sales-TAX Income",
+                          "value": 1600,
+                          "color": "gray"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "chartType": "piechart",
+                      "data": [
+                        {
+                          "title": "Expense"
+                        },
+                        {
+                          "category": "Reparing Charges",
+                          "value": 8000,
+                          "color": "cyan"
+                        },
+                        {
+                          "category": "Internet Charges",
+                          "value": 10000,
+                          "color": "grey"
+                        },
+                        {
+                          "category": "Municipal TAX",
+                          "value": 98000,
+                          "color": "bluegrey"
+                        },
+                        {
+                          "label": "Commission Charges",
+                          "category": "20%",
+                          "value": 16000,
+                          "color": "lightgreen"
+                        },
+                        {
+                          "category": "VAT Charges",
+                          "value": 1600,
+                          "color": "gray"
+                        },
+                        {
+                          "category": "Salaries",
+                          "value": 180000,
+                          "color": "lightgreen"
+                        },
+                        {
+                          "category": "Back Charges",
+                          "value": 993.25,
+                          "color": "bluegrey"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "chart",
+                      "chartType": "barchart",
+                      "data": [
+                        {
+                          "title": "Income v/s Expense"
+                        },
+                        {
+                          "category": "Income",
+                          "subcategories": [
+                            {
+                              "label": "Sales Retail Invoice",
+                              "value": 8000,
+                              "color": "cyan"
+                            },
+                            {
+                              "label": "Bank Charges",
+                              "value": 10000,
+                              "color": "cyan"
+                            },
+                            {
+                              "label": "Sales TAX Invoice",
+                              "value": 98000,
+                              "color": "cyan"
+                            },
+                            {
+                              "label": "Rent",
+                              "value": 9000,
+                              "color": "cyan"
+                            }
+                          ]
+                        },
+                        {
+                          "category": "Expense",
+                          "subcategories": [
+                            {
+                              "label": "Sales Retail Invoice",
+                              "value": 16000,
+                              "color": "lightgreen"
+                            },
+                            {
+                              "label": "Bank Charges",
+                              "value": 1600,
+                              "color": "lightgreen"
+                            },
+                            {
+                              "label": "Sales TAX Invoice",
+                              "value": 600,
+                              "color": "lightgreen"
+                            },
+                            {
+                              "label": "Rent",
+                              "value": 600,
+                              "color": "lightgreen"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "chartType": "tablechart",
+                      "tabs": [
+                        {
+                          "title": "OUTSTANDING",
+                          "data": [
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADITYA INDUSTECH PVT LTD.",
+                              "address": "408,NEW OPERA HOUSE, BAMROLI ROAD,KHATODAR GIDC, 0261-2633551, 9925105061",
+                              "openingBalance": -201860,
+                              "TotalCredit": 201860,
+                              "closingBalance": 0
+                            }
+                          ]
+                        },
+                        {
+                          "title": "PAYABLE",
+                          "data": [
+                            {
+                              "title": "Data 3",
+                              "party_name": "C",
+                              "value": 30,
+                              "color": "green"
+                            },
+                            {
+                              "title": "Data 4",
+                              "party_name": "D",
+                              "value": 40,
+                              "color": "yellow"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SAMPLE ACCOUNTS 2",
+          "type": "Column",
+          "children": [
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "card",
+                  "title": "Total Sales Rs.",
+                  "color": "cyan",
+                  "value": 22333.67,
+                  "value1": 22333.03,
+                  "icon": "Icons.loyalty",
+                  "link": "/parties/k",
+                  "linkText": "Outstanding"
+                },
+                {
+                  "type": "card",
+                  "color": "grey",
+                  "title": "Total Purchase Rs.",
+                  "value": 11111.34,
+                  "value1": 1111111,
+                  "icon": "Icons.shopping_basket",
+                  "link": "/parties/e",
+                  "linkText": "Payable"
+                },
+                {
+                  "type": "card",
+                  "color": "lightgreen",
+                  "title": "Bank Balance Rs.",
+                  "value": 33333,
+                  "icon": "Icons.account_balance",
+                  "link": "/bank",
+                  "linkText": "View Bank Book"
+                },
+                {
+                  "type": "card",
+                  "color": "bluegrey",
+                  "title": "Cash In Hand Rs.",
+                  "value": 33433.67,
+                  "icon": "Icons.account_balance_wallet",
+                  "link": "/cash",
+                  "linkText": "View Cash Book"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "children": [
+                {
+                  "type": "RowType",
+                  "children": [
+                    {
+                      "type": "chart",
+                      "chartType": "piechart",
+                      "data": [
+                        {
+                          "title": "Income"
+                        },
+                        {
+                          "category": "Sales-Retail Invoice",
+                          "value": 8000,
+                          "color": "cyan"
+                        },
+                        {
+                          "category": "Sales GST",
+                          "value": 10000,
+                          "color": "grey"
+                        },
+                        {
+                          "category": "Commision Income",
+                          "value": 120000,
+                          "color": "bluegrey"
+                        },
+                        {
+                          "category": "Service Income",
+                          "value": 99000,
+                          "color": "lightgreen"
+                        },
+                        {
+                          "category": "Sales-TAX Income",
+                          "value": 1600,
+                          "color": "gray"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "chartType": "piechart",
+                      "data": [
+                        {
+                          "title": "Expense"
+                        },
+                        {
+                          "category": "Reparing Charges",
+                          "value": 8000,
+                          "color": "cyan"
+                        },
+                        {
+                          "category": "Internet Charges",
+                          "value": 10000,
+                          "color": "grey"
+                        },
+                        {
+                          "category": "Municipal TAX",
+                          "value": 98000,
+                          "color": "bluegrey"
+                        },
+                        {
+                          "label": "Commission Charges",
+                          "category": "20%",
+                          "value": 16000,
+                          "color": "lightgreen"
+                        },
+                        {
+                          "category": "VAT Charges",
+                          "value": 1600,
+                          "color": "gray"
+                        },
+                        {
+                          "category": "Salaries",
+                          "value": 180000,
+                          "color": "lightgreen"
+                        },
+                        {
+                          "category": "Back Charges",
+                          "value": 993.25,
+                          "color": "bluegrey"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "chart",
+                      "chartType": "barchart",
+                      "data": [
+                        {
+                          "title": "Income v/s Expense"
+                        },
+                        {
+                          "category": "Income",
+                          "subcategories": [
+                            {
+                              "label": "Sales Retail Invoice",
+                              "value": 8000,
+                              "color": "cyan"
+                            },
+                            {
+                              "label": "Bank Charges",
+                              "value": 10000,
+                              "color": "cyan"
+                            },
+                            {
+                              "label": "Sales TAX Invoice",
+                              "value": 98000,
+                              "color": "cyan"
+                            },
+                            {
+                              "label": "Rent",
+                              "value": 9000,
+                              "color": "cyan"
+                            }
+                          ]
+                        },
+                        {
+                          "category": "Expense",
+                          "subcategories": [
+                            {
+                              "label": "Sales Retail Invoice",
+                              "value": 16000,
+                              "color": "lightgreen"
+                            },
+                            {
+                              "label": "Bank Charges",
+                              "value": 1600,
+                              "color": "lightgreen"
+                            },
+                            {
+                              "label": "Sales TAX Invoice",
+                              "value": 600,
+                              "color": "lightgreen"
+                            },
+                            {
+                              "label": "Rent",
+                              "value": 600,
+                              "color": "lightgreen"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "chartType": "tablechart",
+                      "tabs": [
+                        {
+                          "title": "OUTSTANDING",
+                          "data": [
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADARSH GOHIL",
+                              "address": "A-1003, GALAXY ENCLAVE NEAR GALAXY CIRCLE GREEN CITY ROAD,PAL SURAT.",
+                              "openingBalance": -2450,
+                              "TotalCredit": 0,
+                              "closingBalance": 2450
+                            },
+                            {
+                              "party_name": "ADITYA INDUSTECH PVT LTD.",
+                              "address": "408,NEW OPERA HOUSE, BAMROLI ROAD,KHATODAR GIDC, 0261-2633551, 9925105061",
+                              "openingBalance": -201860,
+                              "TotalCredit": 201860,
+                              "closingBalance": 0
+                            }
+                          ]
+                        },
+                        {
+                          "title": "PAYABLE",
+                          "data": [
+                            {
+                              "title": "Data 3",
+                              "party_name": "C",
+                              "value": 30,
+                              "color": "green"
+                            },
+                            {
+                              "title": "Data 4",
+                              "party_name": "D",
+                              "value": 40,
+                              "color": "yellow"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "/JVMEntry": {
+    "handleSubmenuJVMTap": {
+      "type": "responsiveContainer",
+      "alignment": "start",
+      "decoration": {
+        "borderRadius": 2,
+        "boxShadow": true
+      },
+      "padding": 5,
+      "children": [
+        {
+          "type": "Row",
+          "alignment": "spaceBetween",
+          "children": [
+            {
+              "type": "text",
+              "key": "JV CONTROL A/C",
+              "value": "",
+              "style": {
+                "fontSize": 15
+              }
+            },
+            {
+              "key": "Closing Balance",
+              "value": "1234567 DB",
+              "type": "textfield",
+              "width": 200,
+              "height": 30,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Closing Balance",
+                "hintText": "",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "hintTextStyle": {
+                  "color": "grey",
+                  "fontSize": 12
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                }
+              },
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "type": "Row",
+          "alignment": "end",
+          "children": [
+            {
+              "key": "Date",
+              "value": "31-3-2023",
+              "type": "date",
+              "width": 150,
+              "height": 25,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Date",
+                "hintText": "Enter Date",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "fontSize": 12,
+                "hintTextStyle": {
+                  "fontSize": 12,
+                  "color": "grey"
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                },
+                "enabled": true
+              }
+            },
+            {
+              "key": "Friday",
+              "value": "",
+              "type": "textfield",
+              "width": 200,
+              "height": 25,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Friday",
+                "hintText": "",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "fontSize": 12,
+                "hintTextStyle": {
+                  "fontSize": 12,
+                  "color": "grey"
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                },
+                "enabled": true
+              }
+            }
+          ]},
+
+        {
+          "type": "Row",
+          "alignment": "end",
+          "children": [
+            {
+              "key": "Voucher No.",
+              "value": "",
+              "type": "textfield",
+              "width": 200,
+              "height": 25,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Voucher No.",
+                "hintText": "Enter Voucher No.",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "fontSize": 12,
+                "hintTextStyle": {
+                  "fontSize": 12,
+                  "color": "grey"
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                },
+                "enabled": true
+              }
+            }]},
+        {
+          "type": "table",
+          "items": [
+            {
+              "DbCode": "",
+              "Debit Account": "",
+              "CrCode": "",
+              "Credit Account": "",
+              "Remark": "",
+              "Amount Rs.": ""
+            },
+            {
+              "DbCode": "",
+              "Debit Account": "",
+              "CrCode": "",
+              "Credit Account": "",
+              "Remark": "",
+              "Amount Rs.": ""
+            },
+            {
+              "DbCode": "",
+              "Debit Account": "",
+              "CrCode": "",
+              "Credit Account": "",
+              "Remark": "",
+              "Amount Rs.": ""
+            }
+          ]
+        },
+        {
+          "type": "Row",
+          "alignment": "end",
+          "children": [
+            {
+              "key": "Amount Rs.",
+              "value": "",
+              "type": "textfield",
+              "width": 200,
+              "height": 40,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Amount Rs.",
+                "hintText": "Enter Amount Rs.",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "fontSize": 12,
+                "hintTextStyle": {
+                  "fontSize": 12,
+                  "color": "grey"
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                },
+                "enabled": true
+              },
+              "alignment": "end"
+            }]},
+        {
+          "type": "Column",
+          "height": 0.32,
+          "alignment": "end",
+          "children": [
+            {
+              "type": "Row",
+              "alignment": "start",
+              "children": [
+                {
+                  "type": "button",
+                  "action": "SaveForm",
+                  "label": "Save",
+                  "marginTop": 20,
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": "CancelForm",
+                  "label": "Cancel",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": "ExitForm",
+                  "label": "Exit",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                }
+
+
+              ]}]}
+
+      ]}}}

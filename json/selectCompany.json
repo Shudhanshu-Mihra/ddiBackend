@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SAMPLE ACCOUNTS 1",
+    "gst_number": "ABC5agdasdashdhg",
+    "address": "2/2019, Ruderpura Main Road, Surat",
+    "income": [
+      {
+        "title": "Sales_GST",
+        "rs": 821177
+      },
+      {
+        "title": "Sales_GST",
+        "rs": 821177
+      }
+    ]
+  },
+  {
+    "name": "SAMPLE ACCOUNTS 2",
+    "gst_number": "ABC4",
+    "address": "2/2019, Ruderpura Main Road, Surat",
+    "income": [
+      {
+        "title": "Sales_GST",
+        "rs": 821177
+      },
+      {
+        "title": "Sales_GST",
+        "rs": 821177
+      }
+    ]
+  },
+  {
+    "name": "SAMPLE ACCOUNTS 100",
+    "gst_number": "ABC3",
+    "address": "2/2019, Ruderpura Main Road, Surat",
+    "income": []
+  },
+  {
+    "name": "SAMPLE ACCOUNTS 3",
+    "gst_number": "ABC2",
+    "address": "2/2019, Ruderpura Main Road, Surat",
+    "income": []
+  },
+  {
+    "name": "SAMPLE ACCOUNTS 4",
+    "gst_number": "ABC1",
+    "address": "2/2019, Ruderpura Main Road, Surat",
+    "income": []
+  }
+]

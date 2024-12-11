@@ -1,0 +1,443 @@
+{
+  "/JVMEntry": {
+    "handleSubmenuJVMTap": {
+      "type": "responsiveContainer",
+      "alignment": "start",
+      "decoration": {
+        "borderRadius": 2,
+        "boxShadow": true
+      },
+      "padding": 5,
+      "children": [
+        {
+          "type": "Row",
+          "alignment": "spaceBetween",
+          "children": [
+            {
+              "type": "text",
+              "key": "JV CONTROL MULTIPLE A/C",
+              "value": "",
+              "style": {
+                "fontSize": 15
+              }
+            },
+            {
+              "type": "text",
+              "key": "Entry",
+              "value": "",
+              "style": {
+                "fontSize": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "Row",
+          "alignment": "spaceBetween",
+          "children": [
+            {
+              "type": "Column",
+              "alignment": "start",
+              "children": [
+                {
+                  "key": "A/c.Name",
+                  "value": "",
+                  "type": "textfieldWithDropdown",
+                  "width": 300,
+                  "height": 40,
+                  "focusNode": "focusNode1",
+                  "fontSize": 14,
+                  "decoration": {
+                    "labelText": "A/c.Name",
+                    "hintText": "Enter A/c.Name",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "popupOptions": [
+                      {
+                        "Account_name": "shree ganeshay namsha private. limited shree ganeshay namsha private. limited",
+                        "Group": "X",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nanpura Main road, surat",
+                        "Pancard_Number": "1000000"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Vesu, main road",
+                        "Pancard_Number": "1000000"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      },
+                      {
+                        "Account_name": "Aglon Industries private. limited",
+                        "Group": "E",
+                        "Opening Bal": "0.00",
+                        "Total Credit": "0.00",
+                        "Total Debit": "0.00",
+                        "Closing Bal": "0.00",
+                        "Address": "Nake, surat",
+                        "Pancard_Number": "1000001"
+                      }
+                    ],
+                    "onTap": true,
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "Address",
+                  "value": "",
+                  "type": "textarea",
+                  "width": 300,
+                  "height": 40,
+                  "focusNode": "focusNode15",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Address",
+                    "hintText": "ADD Address",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "hintTextStyle": {
+                      "color": "grey",
+                      "fontSize": 12
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    }
+                  },
+                  "enabled": true
+                },
+                {
+                  "key": "ADD Description",
+                  "value": "",
+                  "type": "textarea",
+                  "width": 300,
+                  "height": 40,
+                  "focusNode": "focusNode15",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Description",
+                    "hintText": "ADD Description(optional)",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "hintTextStyle": {
+                      "color": "grey",
+                      "fontSize": 12
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    }
+                  },
+                  "enabled": true
+                }
+              ]},
+            {
+              "type": "Column",
+              "alignment": "start",
+              "children": [
+                {
+                  "key": "Voucher No.",
+                  "value": "",
+                  "type": "textfield",
+                  "width": 150,
+                  "height": 25,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Voucher No.",
+                    "hintText": "Enter Voucher No.",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "Date",
+                  "value": "",
+                  "type": "date",
+                  "width": 150,
+                  "height": 25,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Date",
+                    "hintText": "Enter Date",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "Doc.No",
+                  "value": "",
+                  "type": "textfield",
+                  "width": 150,
+                  "height": 25,
+                  "focusNode": "focusNode1",
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Doc.No",
+                    "hintText": "Enter Doc.No",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                },
+                {
+                  "key": "Account",
+                  "type": "dropdownserch",
+                  "width": 150,
+                  "height": 30,
+                  "focusNode": "focusNode6",
+                  "dropdownOptions": [
+                    "+Credit",
+                    "-Debit"
+                  ],
+                  "fontSize": 12,
+                  "decoration": {
+                    "labelText": "Account",
+                    "border": true,
+                    "enabledborder": true,
+                    "focusedborder": true,
+                    "contentPadding": 1,
+                    "fontSize": 12,
+                    "hintTextStyle": {
+                      "fontSize": 12,
+                      "color": "grey"
+                    },
+                    "labelTextStyle": {
+                      "color": "indigo1",
+                      "fontSize": 14
+                    },
+                    "enabled": true
+                  }
+                }
+              ]}
+          ]},
+        {
+          "type": "table",
+          "items": [
+            {
+              "Account Name": "",
+              "Remark": "",
+              "Amount Rs.": ""
+            },
+            {
+              "Account Name": "",
+              "Remark": "",
+              "Amount Rs.": ""
+            },
+            {
+              "Account Name": "",
+              "Remark": "",
+              "Amount Rs.": ""
+            }
+          ]
+        },
+        {
+          "type": "Row",
+          "alignment": "end",
+          "children": [
+            {
+              "key": "Amount Rs.",
+              "value": "",
+              "type": "textfield",
+              "width": 200,
+              "height": 40,
+              "focusNode": "focusNode1",
+              "fontSize": 12,
+              "decoration": {
+                "labelText": "Amount Rs.",
+                "hintText": "Enter Amount Rs.",
+                "border": true,
+                "enabledborder": true,
+                "focusedborder": true,
+                "contentPadding": 1,
+                "fontSize": 12,
+                "hintTextStyle": {
+                  "fontSize": 12,
+                  "color": "grey"
+                },
+                "labelTextStyle": {
+                  "color": "indigo1",
+                  "fontSize": 14
+                },
+                "enabled": true
+              },
+              "alignment": "end"
+            }]},
+        {
+          "type": "Column",
+          "height": 0.21,
+          "alignment": "end",
+          "children": [
+            {
+              "type": "Row",
+              "alignment": "start",
+              "children": [
+                {
+                  "type": "button",
+                  "action": "SaveForm",
+                  "label": "Save",
+                  "marginTop": 20,
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": "CancelForm",
+                  "label": "Cancel",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": "ExitForm",
+                  "label": "Exit",
+                  "backgroundColor": "indigo1",
+                  "style": {
+                    "color": "white"
+                  }
+                }
+
+
+              ]}]}
+      ]}}}

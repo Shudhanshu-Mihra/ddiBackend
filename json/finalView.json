@@ -1,0 +1,199 @@
+{
+  "/Final_View": {
+    "handleProcess2":
+    {
+      "type": "Column",
+      "children": [
+        {
+          "type": "Rowdata",
+          "alignment": "spacebetween",
+          "children": [
+            {
+              "type": "text",
+              "key": "Final Accounts View",
+              "style": {
+                "fontSize": 16.0
+              }
+            },  {
+              "type": "Rowdata",
+              "alignment": "end",
+              "children": [
+                {
+                  "type": "dropdown2",
+                  "isExpanded": true,
+                  "hint": "All Time",
+                  "items": [
+                    "All Time",
+                    "This Week",
+                    "Last Week",
+                    "This Month",
+                    "Last Month",
+                    "Last year",
+                    "This year"
+                  ],
+                  "value": "All Time",
+                  "buttonStyleData": {
+                    "height": 30,
+                    "width": 160
+                  },
+                  "iconStyleData": {
+                    "iconSize": 24
+                  },
+                  "dropdownStyleData": {
+                    "maxHeight": 200,
+                    "width": 160
+                  },
+                  "menuItemStyleData": {
+                    "height": 40
+                  }
+                },
+                { "type": "popupmenubutton",
+                  "isExpanded": true,
+                  "menuItems": [
+                    {"value": "Download PDF", "label": "Download PDF"},
+                    {"value": "Export to Excel", "label": "Export to Excel"},
+                    {"value": "Export to CSV", "label": "Export to CSV"}
+                  ]
+                }
+              ]}
+          ]}
+      ,
+        {
+          "type": "Row",
+          "alignment": "start",
+          "children": [
+            {
+              "type": "datatable",
+              "displayColumns": [{"name":"Liablities"},{"name":"Code"},{"name":"Amount Rs."}],
+              "totalcolumn": [{"name":"Amount Rs."}],
+              "datawidth":0.51,
+              "columnSpacing":0.324,
+              "columnwidth":0.498,
+              "responsivespace":4,
+              "items":
+              [
+                {"Liablities": "Capital", "Code": "A", "Amount Rs.": "672431.35", "ontap": "handleontap","route":"/A","endpoint":"CapitalAccountView","key" :"Capital-Account-View","readonly": true},
+                {"Liablities": "Reserves & Surplus", "Code": "B", "Amount Rs.": "207007.75", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "Secure Loans", "Code": "C", "Amount Rs.": "0.00", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "Unsecure Loans", "Code": "D", "Amount Rs.": "364458.23", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "Current Liablities", "Code": "", "Amount Rs.": "", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "   Sundry Creditors", "Code": "E", "Amount Rs.": "158702.00", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "   Provisions", "Code": "F", "Amount Rs.": "10585.00", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "   Other Liability", "Code": "G", "Amount Rs.": "0.00", "ontap": "handleTap('Sales')","readonly": true},
+                {"Liablities": "Check this Group", "Code": "Z", "Amount Rs.": "0.00", "ontap": "handleTap('Sales')","readonly": true}
+              ],
+              "text":{
+                "enabled": false
+              },
+              "address":{
+                "enabled": false
+              },
+              "hover": {
+                "cellHover":  false,
+                "tableRowHover": true
+              },
+              "exportenable":{
+                "enabled": false
+              }
+            },
+            {
+              "type": "datatable",
+              "displayColumns": [{"name":"Assets"},{"name": "Code"},{"name": "Amount Rs."}],
+              "totalcolumn": [{"name":"Amount Rs."}],
+              "datawidth":0.51,
+              "columnSpacing":0.324,
+              "columnwidth":0.498,
+              "responsivespace":3.85,
+              "items":
+              [
+                {"Assets": "Fixed", "Code": "H", "Amount Rs.": "213084.00","readonly": true},
+                {"Assets": "Investments", "Code": "I", "Amount Rs.": "50917.11","readonly": true},
+                {"Assets": "Current Assets", "Code": "", "Amount Rs.": "","readonly": true},
+                {"Assets": "   Stock In Trade", "Code": "J", "Amount Rs.": "0","readonly": true},
+                {"Assets": "   Sundry Debtors", "Code": "K", "Amount Rs.": "392384.03","readonly": true},
+                {"Assets": "   Loan Advances", "Code": "L", "Amount Rs.": "93600.00","readonly": true},
+                {"Assets": "   Cash On Hand", "Code": "M", "Amount Rs.": "238188.17","readonly": true},
+                {"Assets": "   Cash In Bank", "Code": "N", "Amount Rs.": "364828.02","readonly": true},
+                {"Assets": "Other Assets", "Code": "O", "Amount Rs.": "60183.00","readonly": true}
+              ],
+              "text":{
+                "enabled": false
+              },
+              "address":{
+                "enabled": false
+              },
+              "hover": {
+                "cellHover": false,
+                "tableRowHover": true
+              },
+              "exportenable":{
+                "enabled": false
+              }
+            }]},
+            {
+              "type": "Row",
+              "alignment": "start",
+              "children": [
+            {
+              "type": "datatable",
+              "displayColumns": [{"name":"Expenditure"},{"name": "Code"},{"name": "Amount Rs."}],
+              "totalcolumn": [{"name":"Amount Rs."}],
+              "datawidth":0.51,
+              "columnSpacing":0.324,
+              "columnwidth":0.498,
+              "responsivespace":3.94,
+              "items":
+              [
+                {"Expenditure": "Purchases", "Code": "P", "Amount Rs.": "1581713.00","readonly": true},
+                {"Expenditure": "Opening Stock", "Code": "P", "Amount Rs.": "0","readonly": true},
+                {"Expenditure": "Trading Expenses", "Code": "X", "Amount Rs.": "14625.00","readonly": true},
+                {"Expenditure": "P&L Expenses", "Code": "", "Amount Rs.": "132529.25","readonly": true},
+                {"Expenditure": "Net Profit", "Code": "", "Amount Rs.": "207007.75","fontWeight": "bold","readonly": true}
+              ],
+              "text":{
+                "enabled": false
+              },
+              "address":{
+                "enabled": false
+              },
+              "hover": {
+                "cellHover": false,
+                "tableRowHover": true
+              },
+              "exportenable":{
+                "enabled": false
+              }
+            },
+            {
+              "type": "datatable",
+              "displayColumns": [{"name":"Assets"},{"name": "Code"},{"name": "Amount Rs."}],
+              "totalcolumn": [{"name":"Amount Rs."}],
+              "datawidth":0.51,
+              "columnSpacing":0.324,
+              "columnwidth":0.498,
+              "responsivespace":3.90,
+              "items":
+              [
+                {"Assets": "Sales", "Code": "S", "Amount Rs.": "1925066.00","readonly": true},
+                {"Assets": "Closing Stock", "Code": "V", "Amount Rs.": "0.00","readonly": true},
+                {"Assets": "Trading Incomes", "Code": "V", "Amount Rs.": "0.00","readonly": true},
+                {"Assets": "P&L Incomes", "Code": "Y", "Amount Rs.": "1935875.00","readonly": true},
+                {"Assets": "Trial Balance", "Code": "K", "Amount Rs.": "0","fontWeight": "bold","readonly": true}
+              ],
+              "text":{
+                "enabled": false
+              },
+              "address":{
+                "enabled": false
+              },
+              "hover": {
+                "cellHover": false,
+                "tableRowHover": true
+              },
+              "exportenable":{
+                "enabled": false
+              }
+            }
+          ]}]}
+  }
+}

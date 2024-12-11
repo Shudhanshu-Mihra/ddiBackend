@@ -1,0 +1,207 @@
+{
+  "ListView": {
+    "children": [
+      {
+        "title": "DashBoard",
+        "done": true,
+        "icon": "Icons.dashboard",
+        "onTap": "handleSubmenu6Tap",
+        "route": "/dashboard",
+        "endpoint": "Dashboard",
+        "key": "dashboard-view"
+      },
+      {
+        "title": "Master Entry",
+        "done": true,
+        "icon": "Icons.inventory_sharp",
+        "submenu": [
+          {
+            "title": "Account Master",
+            "onTap": "handleSubmenu4Tap",
+            "route": "/account_master",
+            "done": true,
+            "jsonFile": "accountMaster.json",
+            "endpoint": "Dashboard",
+            "key": "Account-Master"
+          },
+          {
+            "title": "Item Master",
+            "onTap": "handleSubmenu5Tap",
+            "route": "/item_master",
+            "done": true,
+            "jsonFile": "itemMaster.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          }
+        ]
+      },
+      {
+        "title": "Transaction Entry",
+        "icon": "Icons.playlist_add_check_circle_outlined",
+        "onTap": "handleMillProcessTap",
+        "submenu": [
+          {
+            "title": "Cash/Bank Entry",
+            "onTap": "handleSubmenucashTap",
+            "route": "/cashEntry",
+            "done": true,
+            "jsonFile": "cashEntry.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          },
+          {
+            "title": "Sales GST",
+            "onTap": "handleSubmenu1Tap",
+            "route": "/sales_gst",
+            "done": true,
+            "jsonFile": "salesGST.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          },
+          {
+            "title": "Sales Entry",
+            "onTap": "handleSubmenu2Tap",
+            "route": "/sales",
+            "done": true,
+            "jsonFile": "sales.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          },
+          {
+            "title": "Journal Voucher Single Entry",
+            "onTap": "handleSubmenuJVTap",
+            "route": "/JVEntry",
+            "done": true,
+            "jsonFile": "JVEntry.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          }
+        , {
+            "title": "Journal Voucher Multiple Entry",
+            "onTap": "handleSubmenuJVMTap",
+            "route": "/JVMEntry",
+            "done": true,
+            "jsonFile": "JVMEntry.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          }
+        , {
+            "title": "Journal Voucher Fixed Entry",
+            "onTap": "handleSubmenuJVFTap",
+            "route": "/JVFEntry",
+            "done": true,
+            "jsonFile": "JVFEntry.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          },
+          {
+            "title": "Inventory Entry",
+            "onTap": "handleSubmenuInventoryTap",
+            "route": "/Inventory",
+            "done": true,
+            "jsonFile": "Inventory.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          }
+        ]
+      },
+      {
+        "title": "Final View",
+        "icon": "Icons.account_balance_wallet",
+        "done": true,
+        "onTap": "handleProcess2",
+        "route": "/Final_View",
+        "jsonFile": "finalView.json",
+        "endpoint": "Dashboard",
+        "key": "dashboard-view"
+      },
+      {
+        "title": "GST Report",
+        "icon": "Icons.people",
+        "onTap": "handleTradersProcessTap"
+      },
+      {
+        "title": "Accounts Report",
+        "icon": "Icons.description",
+        "onTap": "handleAccountsReportTap"
+      },
+      {
+        "title": "Final Accounts Report",
+        "icon": "Icons.receipt",
+        "onTap": "handleFinalAccountsReportTap"
+      },
+      {
+        "title": "Inventory Report",
+        "icon": "Icons.list_alt",
+        "onTap": "handleInventoryReportTap"
+      },
+      {
+        "title": "General Accounts Report",
+        "icon": "Icons.account_balance",
+        "onTap": "handleGeneralAccountsReportTap"
+      },
+      {
+        "title": "Misc. Utilities",
+        "icon": "Icons.extension",
+        "onTap": "handleMiscUtilitiesTap"
+      },
+      {
+        "title": "Multi Company Reports",
+        "icon": "Icons.business",
+        "onTap": "handleMultiCompanyReportsTap"
+      },
+      {
+        "title": "Account Utilities",
+        "icon": "Icons.attach_money",
+        "onTap": "handleAccountUtilitiesTap"
+      },
+      {
+        "title": "Company Master",
+        "icon": "Icons.business_center",
+        "onTap": "handleCompanyMasterTap",
+        "submenu": [
+
+          {
+            "title": "Company Create",
+            "onTap": "handleSubmenu3Tap",
+            "route": "/home",
+            "done": true,
+            "jsonFile": "home.json",
+            "endpoint": "Dashboard",
+            "key": "dashboard-view"
+          }]
+      },
+      {
+        "title": "Manage User Account",
+        "done": true,
+        "icon": "Icons.manage_accounts",
+        "submenu": [
+          {
+            "title": "User Permission",
+            "onTap": "handleSubmenu4Tap",
+            "route": "/userPermission",
+            "done": true,
+            "endpoint": "UserPermission",
+            "key": "user_permission"
+          }
+        ]
+      },
+      {
+        "title": "Exit",
+        "icon": "Icons.exit_to_app",
+        "onTap": "handleExitTap"
+      }
+    ]
+  },
+  "/ticket": {
+    "handleSubmenu6Tap": {
+      "type": "responsiveContainer",
+      "decoration": {
+        "color": "grey",
+        "borderRadius": 2
+      },
+      "padding": 5,
+      "children": []
+    }
+  }
+}
