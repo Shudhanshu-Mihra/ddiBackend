@@ -11,13 +11,15 @@
             "type": "textbutton",
             "label": "/Final_View",
             "color":"indigo1",
-            "ontap":"finalView.json"
+            "endpoint":"FinalView",
+            "key":"final-view"
           },
           {
             "type": "textbutton",
             "label": "/A",
             "color":"grey",
-            "ontap":"CaptialAccountView.json"
+            "endpoint":"CapitalAccountView",
+            "key":"Capital-Account-View"
           }
         ]
       },
@@ -31,7 +33,7 @@
         "items":
         [
           {"Party Name": "XYZ CAPITALA/C.", "Address": "SURAT", "Opening Balance": "672431.35 DR",
-            "Credit": "0.00","Debit": "0.00","ontap": "handleontapA","route":"/XYZ CAPITALA/C.","jsonFile":"CompanyAccountView.json","readonly": true},
+            "Credit": "0.00","Debit": "0.00","ontap": "handleontapA","route":"/XYZ CAPITALA/C.","endpoint": "CompanyAccountView", "key": "Company-Account-View","readonly": true},
           {"Party Name": "XYZ CAPITALA/C.", "Address": "Baroda", "Opening Balance": "50000 CR",
             "Credit": "0.00","Debit": "0.00","ontap": "","route":"","readonly": true}
         ],

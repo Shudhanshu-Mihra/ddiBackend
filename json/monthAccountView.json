@@ -11,26 +11,30 @@
               "type": "textbutton",
               "label": "/Final_View",
               "color": "indigo1",
-              "ontap": "finalView.json"
+              "endpoint":"FinalView",
+              "key":"final-view"
             },
             {
               "type": "textbutton",
               "label": "/A",
               "color": "indigo1",
-              "ontap": "CaptialAccountView.json",
+              "endpoint":"CapitalAccountView",
+              "key":"Capital-Account-View",
               "cellvalue": "Capital"
             },
             {
               "type": "textbutton",
               "label": "/XYZ CAPITALA/C.",
               "color": "indigo1",
-              "ontap": "CompanyAccountView.json"
+              "endpoint": "CompanyAccountView",
+              "key": "Company-Account-View"
             },
             {
               "type": "textbutton",
               "label": "/April",
               "color": "grey",
-              "ontap": "monthAccountView.json"
+              "endpoint": "MonthAccountView",
+              "key": "Month-Account-View"
             }
           ]
         },

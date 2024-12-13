@@ -11,20 +11,23 @@
               "type": "textbutton",
               "label": "/Final_View",
               "color":"indigo1",
-              "ontap":"finalView.json"
+              "endpoint":"FinalView",
+              "key":"final-view"
             },
             {
               "type": "textbutton",
               "label": "/A",
               "color":"indigo1",
-              "ontap":"CaptialAccountView.json",
+              "endpoint":"CapitalAccountView",
+              "key":"Capital-Account-View",
               "cellvalue": "Capital"
             },
             {
               "type": "textbutton",
               "label": "/XYZ CAPITALA/C.",
               "color":"grey",
-              "ontap":"CompanyAccountView.json"
+              "endpoint": "CompanyAccountView",
+              "key": "Company-Account-View"
             }
           ]
         },
@@ -37,7 +40,8 @@
           "totalcolumn": [{"name":"Debit"},{"name":"Credit"}],
           "items":
           [{"Month": "Opening Balance", "Debit": "", "Credit": "","Balance": "672431.35 CR","fontWeight": "bold","readonly": true},
-            {"Month": "April", "Debit": "100", "Credit": "200","Balance": "672431.35 CR","ontap": "handleontapmonth","route":"/April","jsonFile":"monthAccountView.json","readonly": true},
+            {"Month": "April", "Debit": "100", "Credit": "200","Balance": "672431.35 CR","ontap": "handleontapmonth","route":"/April", "endpoint": "MonthAccountView",
+              "key": "Month-Account-View","readonly": true},
             {"Month": "May", "Debit": "0.00", "Credit": "0.00","Balance": "672431.35 CR","readonly": true},
             {"Month": "June", "Debit": "2000", "Credit": "0.00","Balance": "672431.35 CR","readonly": true},
             {"Month": "July", "Debit": "0.00", "Credit": "0.00","Balance": "672431.35 CR","readonly": true},
